@@ -7,17 +7,17 @@ sleep 2
 
 clear 
 
-echo "HACKERTYPER \n please input username:"
+echo -e "HACKERTYPER \n please input username:"
 
 read Username
 sleep 1
 
-echo "Hello $Username \n please now type out your password"
+echo -e "Hello $Username \n please now type out your password"
  sed -i "s/^Username:.*/Username: $Username/" Logininfo.txt
 
  sleep 1
  echo "username saved!"
- sleep 1
+ sleep 2
 echo "Please input your Password:"
 
  stty -echo 
@@ -32,7 +32,7 @@ echo "Please input your Password:"
  echo ""
  #4 new line
 
-echo "nice! /n this will definitely not come to harrass you later :)"
+echo -e "nice! \n this will definitely not come to harrass you later :)"
 sleep 2
 clear
 
