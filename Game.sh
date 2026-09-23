@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -e "choose two options: \n 1) Code \n 2) important docs \n input a numbeer."
+echo -e "choose two options: \n 1) Code \n 2) important docs \n input a number."
 read cios
 case $cios in 
 	1)
@@ -27,12 +27,16 @@ case $cios in
     ;;
 esac
 
+echo "Choose a speed: [type a number from 1-10"
+read Num
+clear
 
+echo "WorkFlow+:"
 
 while IFS= read -r -n 1 key 
 do
-	printf "%s" "${fake:$count:5}"
-	((count+=5))
+	printf "%s" "${fake:$count:$Num}"
+	((count+=$Num))
 
 	if (( count >= ${#fake} )); then
 		count=0
