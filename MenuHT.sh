@@ -11,12 +11,11 @@ echo -e "HACKERTYPER \n please input username:"
 
 read Username
 sleep 1
-
-echo -e "Hello $Username \n please now type out your password"
  sed -i "s/^Username:.*/Username: $Username/" Logininfo.txt
 
  sleep 1
  echo "username saved!"
+
  sleep 2
 echo "Please input your Password:"
 
