@@ -1,0 +1,142 @@
+Searcher initialized...
+Searching connected devices...
+Scanning hardware interfaces...
+Scanning SATA connections...
+Scanning NVMe connections...
+Scanning USB storage...
+Searching system directories...
+
+[ SEARCH ] Device detected: UNKNOWN_04
+[ SEARCH ] Attempting device identification...
+[ WARNING ] Device identification failed.
+[ SYSTEM ] Retrying identification...
+[ SEARCH ] Device partially recognized.
+[ SEARCH ] Device ID: DISK_0x004F
+[ SEARCH ] Unauth user: Rempart
+[ SEARCH ] Auto Pruning
+[ UM ] Searching
+[ UM ] Rempart user located..
+[ UM ] attempting rm user
+[ UM ] attempt failed
+[ UM ] attempt failed
+[ UM ] attempt failed
+[ UM ] attempt failed
+[ UM ] attempt succesfull
+[ UM ] removing Rempart
+[ SEARCH ] searching for sudo users
+[ SEARCH ] ...
+[ SEARCH ] getver juke bendover ait ukd
+[ SEARCH ] activating User Management System
+[ UM ] Running sudo usage
+[ SUM ] getent sudo users
+[ SUM ] rm ait ukd
+
+[ SEARCH ] Start up sequence activated
+[ SEARCH ] Attempting connection...
+[ SEARCH ] Connection established.
+[ SEARCH ] Reading device information...
+[ SEARCH ] Checking disk integrity...
+[ SEARCH ]Checking partition table...
+
+[ ERROR ] PARTITION TABLE CORRUPTED.
+[ ERROR ] DISK ACCESS DENIED.
+[ SYSTEM ] Initiating automatic recovery...
+
+Running recovery protocol...
+Backing up available disk information...
+Backup status: COMPLETE.
+Attempting partition reconstruction...
+Rebuilding disk index...
+Restoring device permissions...
+Refreshing hardware connections...
+
+[ RECOVERY ] Attempt 1/6 FAILED.
+[ RECOVERY ] Attempt 2/6 FAILED.
+[ RECOVERY ] SAttempt 3/6 ERROR
+[ SYSTEM ] RESTART ASERIC DISK
+[ BOOT ]
+
+
+[ SYSTEM ] REattempting
+[ RECOVERY ] Attempt 1/6 FAILED
+[ RECOVERY ] Attempt 2/6 FAILED
+[ RECOVERY ] !@#*($!) 3/6 INITIALIZED
+Searching for alternate disk drivers...
+Driver located: STORAGE_DRV_04
+Checking driver compatibility...
+Compatibility confirmed.
+Installing missing driver...
+Driver installation: 25%
+Driver installation: 50%
+Driver installation: 75%
+Driver installation: 100%
+
+[ SYSTEM ] Driver successfully installed.
+[ SYSTEM ] Reconnecting disk drive...
+[ SYSTEM ] Device connection restored.
+[ RECOVERY ] !@#*%&!@#(*!@#* !(@#*))
+Running secondary system checks...
+RAM [1] ........ OK
+VRAM [1] ....... OK
+DISKDR [1] ..... OK
+
+Checking disk permissions...
+Checking available storage...
+Checking file integrity...
+Checking system directories...
+
+[ VERIFY ] All hardware components detected.
+[ VERIFY ] No critical errors detected.
+[ VERIFY ] System integrity restored.
+
+Resuming automatic system...
+Initializing background services...
+Synchronizing system files...
+Refreshing system cache...
+Loading missing components...
+Checking for additional errors...
+
+[ SYSTEM ] No further errors detected.
+[ SYSTEM ] Automatic recovery completed.
+[ SYSTEM ] All systems operational.
+
+Running final diagnostics...
+RAM STATUS: NORMAL
+VRAM STATUS: NORMAL
+DISKDR STATUS: CONNECTED
+RECOVERY STATUS: SUCCESSFUL
+
+System checks completed.
+Automatic system running...
+Slow mode disabled.
+SYSTEM STATUS: OPERATIONAL.
+[ SYSTEM ] AUTO SYSTEM ENGAGED
+[ ASE ] Running partitioning system
+[ SYSTEM ] pruning RECOVERY system
+[ RECOVERY ] N#!@* D#!2 D# I#
+[ ASE ] Installing linux
+[ SYSTEM ] pruning Succesfull
+[ ASE ] Updating drivers
+[ SYSTEM ] Running RECOVERY SYS
+[ RECOVERY ] Init code: 3DE4$!@
+[ SYSTEM ] Code Received
+[ ASE ] Installing GitHub N
+[ SYSTEM ] C0de VERIFYING
+[ ASE ] --version
+[ GIT ] git version 2.47.3
+[ ASE ] VERIFIED
+[ SYSTEM ] Code REJECTED
+[ RECOVERY ] NCode: D32@( @3*10\\)
+[ SYSTEM ] Code Received
+[ ASE ] Installing latest SUBLIME
+[ SYSTEM ] C0de CHECKING
+[ ERRORMS ] RECOVERY SYS UNOPERABLE, MUST REBOOT PROCESS
+[ ERRORMS ] STOPPING ALL SYS MOVEMENT
+[ ASE ] Stopping
+[ SYSTEM ] rebooting
+[ GIT ] Stopping
+[ SUBL ] Stopping
+[ RECOVERY ] Stopping...
+
+
+

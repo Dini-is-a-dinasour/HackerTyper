@@ -70,7 +70,23 @@ sleep 1
 echo "starting boot up..."
 sleep 2
 clear
+echo "To boot up manual mode press 1 and to boot up auto mode press 2"
+read $input 
 
-source Game.sh 
+case $input in 
+ 1)
+   echo "bootin up manual"
+   source Manual.sh  
+   ;;
+ 2)
+   echo "bootin up auto"
+   source Auto.sh
+   ;;
+ *)
+   echo "ur fried, booting up manual"
+   source Manual.sh 
+   ;;  
+esac
+
 exit 0
 
